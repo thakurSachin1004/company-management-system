@@ -14,7 +14,7 @@ public class Address {
     @Id
     @Column(name = "ID", updatable = false, nullable = false)
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
 
     @Column(name = "STREET")
     private String street;
@@ -24,4 +24,5 @@ public class Address {
 
     @Column(name = "ZIP_CODE")
     private String zipCode;
+
 }

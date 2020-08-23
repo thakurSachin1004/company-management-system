@@ -15,7 +15,7 @@ public class Car {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID", nullable = false, updatable = false)
-    private int id;
+    private Long id;
 
     @Column(name = "REGISTRATION_NUMBER", nullable = false)
     private String registrationNumber;

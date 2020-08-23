@@ -19,7 +19,7 @@ public class Department implements Serializable {
     @Id
     @Column(name = "ID", updatable = false, nullable = false)
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
 
     @Column(name = "NAME", nullable = false)
     private String name;
