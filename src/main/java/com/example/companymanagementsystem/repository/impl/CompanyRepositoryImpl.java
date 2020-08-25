@@ -2,9 +2,6 @@ package com.example.companymanagementsystem.repository.impl;
 
 import com.example.companymanagementsystem.model.*;
 import com.example.companymanagementsystem.repository.CompanyRepository;
-import com.example.companymanagementsystem.service.CompanyService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataAccessException;
 import org.springframework.dao.support.DataAccessUtils;
 import org.springframework.stereotype.Repository;
 
